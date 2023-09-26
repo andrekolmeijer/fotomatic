@@ -381,11 +381,15 @@ header .mobile {
 
 @media only screen and (max-width: 1024px) {
   #filters-section {
-    padding: 4rem 0 1% 0;
+    padding: 4rem 0 0 0;
   }
 
   #filters-section .content {
     margin-bottom: 4rem;
+  }
+
+  #filters-section .images-container {
+    padding: 0;
   }
 }
 
@@ -410,10 +414,6 @@ header .mobile {
   #filters-section .content h3 {
     font-size: .875rem;
     line-height: 1.4;
-  }
-
-  #filters-section .images-container {
-    padding: 0;
   }
 
   #filters-section .extra {
