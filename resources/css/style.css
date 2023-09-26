@@ -301,6 +301,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  margin-bottom: .25rem;
 }
 
 #filters-section .content h3 {
@@ -308,11 +309,14 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  opacity: .7;
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
+  opacity: .9;
 }
 
 @media only screen and (max-width: 760px) {
