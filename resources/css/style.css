@@ -84,6 +84,33 @@ header .mobile {
   display: none;
 }
 
+@media only screen and (min-width: 761px) and (max-width: 1024px) {
+  header .content {
+    padding: 1.6875rem 1.875rem;
+  }
+
+  header .mobile {
+    display: block;
+  }
+
+  header .mobile li:not(:has(a.button)) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+
+  nav li {
+    padding-left: 2.5rem;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -95,25 +122,18 @@ header .mobile {
   }
 
   header .content {
-    padding: .5rem 0;
+    padding: .5rem 1rem;
   }
 
   header .mobile ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
   }
 
   header .mobile li {
     padding: 0;
-  }
-
-  header .mobile .button {
-    padding: .1875rem .5rem;
-    background-color: #9dc20b;
-    line-height: 1.6;
-    color: white;
   }
 }
 
