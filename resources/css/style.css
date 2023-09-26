@@ -447,17 +447,27 @@ header .mobile {
   height: 1.875rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  #quotes-section .content {
+    padding: 3.125rem 2rem;
+    text-align: left;
+  }
+}
+
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
-    padding: 1.875rem .625rem;
+  #quotes-section .content {
+    padding: 1.875rem 1rem;
+    flex-direction: column;
+    text-align: center;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
+    padding-right: 0;
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
