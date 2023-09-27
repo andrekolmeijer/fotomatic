@@ -29,6 +29,12 @@ html {
   max-width: 100%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .main-content {
+    top: 4.5rem;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 3rem;
@@ -86,7 +92,7 @@ header .mobile {
 
 @media only screen and (min-width: 761px) and (max-width: 1024px) {
   header .content {
-    padding: 1.6875rem 1.875rem;
+    padding: 1.25rem;
   }
 
   header .mobile {
