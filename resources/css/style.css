@@ -509,7 +509,7 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.875rem;
 }
 
 footer .content {
@@ -520,6 +520,12 @@ footer .content {
 
 footer .copyright {
   flex-grow: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer {
+    padding: 1.5rem 1.25rem;
+  }
 }
 
 @media only screen and (max-width: 760px) {
