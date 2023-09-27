@@ -322,6 +322,17 @@ header .mobile {
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
+    gap: 1.25rem;
+  }
+
+  .feature:first-child {
+    margin-right: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #features-section {
+    gap: 0;
     padding: 0;
   }
 
@@ -332,6 +343,7 @@ header .mobile {
 
   .feature:first-child {
     background-color: transparent;
+    margin-right: 0;
   }
 
   .feature .image-container {
