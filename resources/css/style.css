@@ -517,6 +517,10 @@ footer .copyright {
 }
 
 @media only screen and (max-width: 760px) {
+  footer {
+    padding: 1rem;
+  }
+
   footer .content {
     font-size: .625rem;
   }
