@@ -266,8 +266,8 @@ header .mobile {
 }
 
 .feature .image-container {
-  /* width: 90%; */
-  height: 65%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -293,6 +293,10 @@ header .mobile {
 @media only screen and (max-width: 1024px) {
   #features-section {
     padding: 2rem 0;
+  }
+
+  .feature .image-container {
+    height: 100%;
   }
 
   .feature .content {
@@ -328,6 +332,15 @@ header .mobile {
 
   .feature:first-child {
     background-color: transparent;
+  }
+
+  .feature .image-container {
+    height: 13rem;
+  }
+
+  .feature .image-container img {
+    position: relative;
+    bottom: 11%;
   }
 
   .feature .content {
