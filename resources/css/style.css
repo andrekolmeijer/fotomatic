@@ -348,7 +348,6 @@ header .mobile {
   }
 
   .feature:first-child {
-    background-color: transparent;
     margin-right: 0;
   }
 
@@ -364,6 +363,10 @@ header .mobile {
   .feature .content {
     padding: 1.875rem 1rem;
     text-align: center;
+  }
+
+  .feature:first-child .content {
+    border-bottom: 1px solid #f3f3f3;
   }
 
   .feature h2 {
@@ -454,9 +457,9 @@ header .mobile {
 
 /* Quotes Section */
 
-#quotes-section {
+/* #quotes-section {
   background-color: #f3f3f3;
-}
+} */
 
 #quotes-section .content {
   padding: 5rem 0;
@@ -508,12 +511,12 @@ header .mobile {
 /* Footer */
 
 footer {
-  background-color: #9b9b9b;
+  background-color: #f3f3f3; /* #9b9b9b */
   padding: 1.5rem 1.875rem;
 }
 
 footer .content {
-  color: white;
+  /* color: white; */
   display: flex;
   font-size: .75rem;
 }
