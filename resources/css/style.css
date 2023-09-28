@@ -36,7 +36,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 700px) {
   .main-content {
     top: 3rem;
   }
@@ -91,7 +91,7 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (min-width: 761px) and (max-width: 1024px) {
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
   header .content {
     padding: 1.25rem;
   }
@@ -118,7 +118,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 700px) {
   header .desktop {
     display: none;
   }
@@ -241,7 +241,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 700px) {
   #sign-up-section {
     height: 20rem;
     background-position: right;
@@ -333,20 +333,9 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 700px) {
   #features-section {
     flex-flow: column;
-    gap: 1.25rem;
-  }
-
-  .feature:first-child {
-    margin-right: 1.25rem;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  #features-section {
-    gap: 0;
     padding: 0;
   }
 
@@ -369,7 +358,7 @@ header .mobile {
     /* bottom: 11%; */
     object-position: center center;
     object-fit: cover;
-    height: 13rem;
+    height: 11rem;
     width: 100%;
   }
 
@@ -440,7 +429,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 700px) {
   #filters-section {
     padding: 1.875rem 0 0 0;
   }
@@ -501,7 +490,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 700px) {
   #quotes-section .content {
     padding: 1.875rem 1rem;
     flex-direction: column;
@@ -544,7 +533,7 @@ footer .copyright {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 700px) {
   footer {
     padding: 1rem;
   }
