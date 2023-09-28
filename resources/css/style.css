@@ -521,6 +521,7 @@ footer .content {
   /* color: white; */
   display: flex;
   font-size: .75rem;
+  line-height: 1rem;
 }
 
 footer .copyright {
@@ -540,5 +541,6 @@ footer .copyright {
 
   footer .content {
     font-size: .625rem;
+    line-height: .8125rem;
   }
 }
