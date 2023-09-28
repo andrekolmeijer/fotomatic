@@ -27,6 +27,7 @@ html {
 .image-container img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -302,7 +303,14 @@ header .mobile {
   }
 
   .feature .image-container {
+    aspect-ratio: 1 / 1;
+  }
+
+  .feature .image-container img {
+    object-position: center center;
+    object-fit: cover;
     height: 100%;
+    /* width: 100%; */
   }
 
   .feature .content {
@@ -352,12 +360,17 @@ header .mobile {
   }
 
   .feature .image-container {
-    height: 13rem;
+    /* height: 13rem; */
+    aspect-ratio: auto;
   }
 
   .feature .image-container img {
-    position: relative;
-    bottom: 11%;
+    /* position: relative; */
+    /* bottom: 11%; */
+    object-position: center center;
+    object-fit: cover;
+    height: 13rem;
+    width: 100%;
   }
 
   .feature .content {
